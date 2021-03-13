@@ -4,7 +4,6 @@ import cn.hutool.core.convert.Convert;
 import cn.hutool.core.date.DateUnit;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.StrUtil;
-import org.apache.hadoop.record.Index;
 import org.lov3camille.trend.client.IndexDataClient;
 import org.lov3camille.trend.pojo.AnnualProfit;
 import org.lov3camille.trend.pojo.IndexData;
