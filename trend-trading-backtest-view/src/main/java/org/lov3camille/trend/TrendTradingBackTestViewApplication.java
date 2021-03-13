@@ -25,6 +25,20 @@ public class TrendTradingBackTestViewApplication {
         int port = 0;
         int defaultPort = 8041;
         int eurekaServerPort = 8761;
+        int configServerPort = 8060;
+        int rabbitMQPort = 5672;
+
+        if (NetUtil.isUsableLocalPort(rabbitMQPort)) {
+            System.err.printf("It has been detected that port %d has not been used, so eureka" +
+                    "server has not been lauched, exit%n", rabbitMQPort);
+            System.exit(1);
+        }
+
+        if (NetUtil.isUsableLocalPort(configServerPort)) {
+            System.err.printf("It has been detected that port %d has not been used, so eureka" +
+                    "server has not been lauched, exit%n", configServerPort);
+            System.exit(1);
+        }
 
         if (NetUtil.isUsableLocalPort(eurekaServerPort)) {
             System.err.printf("It has been detected that port %d has not been used, so eureka" +

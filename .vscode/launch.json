@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.lov3camille.trend.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-IndexCodesApplication<index-codes-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.lov3camille.trend.IndexCodesApplication",
+            "projectName": "index-codes-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-IndexDataApplication<index-data-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.lov3camille.trend.IndexDataApplication",
+            "projectName": "index-data-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TrendTradingBackTestServiceApplication<trend-trading-backtest-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.lov3camille.trend.TrendTradingBackTestServiceApplication",
+            "projectName": "trend-trading-backtest-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TrendTradingBackTestViewApplication<trend-trading-backtest-view>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.lov3camille.trend.TrendTradingBackTestViewApplication",
+            "projectName": "trend-trading-backtest-view",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-IndexZuulServiceApplication<index-zuul-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.lov3camille.trend.IndexZuulServiceApplication",
+            "projectName": "index-zuul-service",
+            "args": ""
+        }
+    ]
+}
